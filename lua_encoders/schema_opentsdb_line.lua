@@ -1,6 +1,6 @@
 require "cjson"
 
-local tsdb_line_protocol = require "tsdb_line_protocol"
+local tsdb_line_protocol = require "opentsdb_line_protocol"
 
 local decoder_config = {
     decimal_precision = read_config("decimal_precision") or "6",
